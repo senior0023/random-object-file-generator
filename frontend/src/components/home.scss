@@ -1,0 +1,27 @@
+body {
+    background: #c7c7c7 !important;
+}
+
+.home {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .generate-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .download-link {
+            text-decoration: underline;
+        }
+    }
+
+    .report-section {
+        .report-data-item {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
